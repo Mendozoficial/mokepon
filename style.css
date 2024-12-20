@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #666;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.mokepon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.mokepon img {
+    width: 100px; /* Aumenté el tamaño de la imagen */
+    height: 100px; /* Aumenté el tamaño de la imagen */
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mensajes p {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+#reiniciar {
+    margin-top: 20px;
+}
+
+#reinicio {
+    background-color: #f44336;
+    color: white;
+}
+
+#reinicio:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilos adicionales para centrar todos los botones */
+#seleccionar-mokepon, #seleccionar-ataque, #reiniciar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    align-self: center;
+}
